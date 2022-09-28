@@ -13,6 +13,8 @@
 		2A1240D828E409DF00B70849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1240D628E409DF00B70849 /* Main.storyboard */; };
 		2A1240DA28E409E000B70849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1240D928E409E000B70849 /* Assets.xcassets */; };
 		2A1240DD28E409E000B70849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1240DB28E409E000B70849 /* LaunchScreen.storyboard */; };
+		2A1240E528E40A3800B70849 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1240E428E40A3800B70849 /* ServerConfiguration.swift */; };
+		2A1240E728E4168900B70849 /* ServerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2A1240D928E409E000B70849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A1240DC28E409E000B70849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A1240DE28E409E000B70849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1240E428E40A3800B70849 /* ServerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfiguration.swift; sourceTree = "<group>"; };
+		2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				2A1240D028E409DF00B70849 /* AppDelegate.swift */,
 				2A1240D228E409DF00B70849 /* SceneDelegate.swift */,
+				2A1240E428E40A3800B70849 /* ServerConfiguration.swift */,
+				2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */,
 				2A1240D428E409DF00B70849 /* ViewController.swift */,
 				2A1240D628E409DF00B70849 /* Main.storyboard */,
 				2A1240D928E409E000B70849 /* Assets.xcassets */,
@@ -141,6 +147,8 @@
 				2A1240D528E409DF00B70849 /* ViewController.swift in Sources */,
 				2A1240D128E409DF00B70849 /* AppDelegate.swift in Sources */,
 				2A1240D328E409DF00B70849 /* SceneDelegate.swift in Sources */,
+				2A1240E528E40A3800B70849 /* ServerConfiguration.swift in Sources */,
+				2A1240E728E4168900B70849 /* ServerCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
