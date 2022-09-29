@@ -15,6 +15,7 @@
 		2A1240DD28E409E000B70849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1240DB28E409E000B70849 /* LaunchScreen.storyboard */; };
 		2A1240E528E40A3800B70849 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1240E428E40A3800B70849 /* ServerConfiguration.swift */; };
 		2A1240E728E4168900B70849 /* ServerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */; };
+		2A1240E928E428BE00B70849 /* DemoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1240E828E428BE00B70849 /* DemoTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2A1240DE28E409E000B70849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1240E428E40A3800B70849 /* ServerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfiguration.swift; sourceTree = "<group>"; };
 		2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A1240E828E428BE00B70849 /* DemoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2A1240E428E40A3800B70849 /* ServerConfiguration.swift */,
 				2A1240E628E4168900B70849 /* ServerCollectionViewCell.swift */,
 				2A1240D428E409DF00B70849 /* ViewController.swift */,
+				2A1240E828E428BE00B70849 /* DemoTableView.swift */,
 				2A1240D628E409DF00B70849 /* Main.storyboard */,
 				2A1240D928E409E000B70849 /* Assets.xcassets */,
 				2A1240DB28E409E000B70849 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1240E928E428BE00B70849 /* DemoTableView.swift in Sources */,
 				2A1240D528E409DF00B70849 /* ViewController.swift in Sources */,
 				2A1240D128E409DF00B70849 /* AppDelegate.swift in Sources */,
 				2A1240D328E409DF00B70849 /* SceneDelegate.swift in Sources */,
@@ -303,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

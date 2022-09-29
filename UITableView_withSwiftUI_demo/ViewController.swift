@@ -28,7 +28,13 @@ class ViewController: UICollectionViewController {
     private var swiftUIHeaderViewRegister: UICollectionView.SupplementaryRegistration<UICollectionViewCell>?
     
     // Configuration for using SwiftUI for footer view
-    private var swiftUIFooterViewRegister: UICollectionView.SupplementaryRegistration<UICollectionViewCell>?
+    private var swiftUIFooterViewRegister: UICollectionView.SupplementaryRegistration<UICollectionViewCell> = .init(elementKind: UICollectionView.elementKindSectionFooter) {
+        (header, elementKind, indexPath) in
+        // Define header content using `UIHostingConfiguration`
+        header.contentConfiguration = UIHostingConfiguration {
+            Text("Thanks for reading this article!")
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,14 +62,6 @@ class ViewController: UICollectionViewController {
                }
            }
        }
-        // Set up the footer configuration
-        self.swiftUIFooterViewRegister = .init(elementKind: UICollectionView.elementKindSectionFooter) {
-            (header, elementKind, indexPath) in
-            // Define header content using `UIHostingConfiguration`
-            header.contentConfiguration = UIHostingConfiguration {
-                Text("Thanks for reading this article!")
-            }
-        }
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -81,8 +79,7 @@ class ViewController: UICollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        guard let swiftUIHeaderViewRegister,
-              let swiftUIFooterViewRegister else {
+        guard let swiftUIHeaderViewRegister else {
             return .init()
         }
         switch kind {

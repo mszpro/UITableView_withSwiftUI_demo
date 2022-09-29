@@ -43,6 +43,12 @@ enum DemoData {
               numberOfCPUCores: 1,
               gbOfMemory: 1,
               isServerStarred: false
-             )
+             ),
+        .init(serverNickname: "Kitsu",
+              serverRegion: "office",
+              serverHardwareType: "Advanced",
+              numberOfCPUCores: 32,
+              gbOfMemory: 64,
+              isServerStarred: true)
     ]
 }
